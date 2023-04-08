@@ -51,32 +51,16 @@ class DynamicSearchBloc extends Bloc<DynamicSearchEvent, DynamicSearchState> {
           ),
         );
       },
-      // queryKeyChanged: (e) async {
-      //   emit(state.copyWith(queryKey: e.kValue));
-      // },
       queryData: (e) async {
-        List<String> queriedData = <String>[];
+        List<String> queriedData = state.fullData
+            .where(
+                (data) => data.toLowerCase().contains(e.kValue.toLowerCase()))
+            .toList();
+
         emit(
           state.copyWith(
             queriedData: queriedData,
             queryKey: e.kValue,
-          ),
-        );
-        for (String data in state.fullData) {
-          if (data.toUpperCase().contains(e.kValue.toUpperCase())) {
-            queriedData.add(data);
-          }
-        }
-        emit(
-          state.copyWith(
-            queriedData: queriedData,
-          ),
-        );
-      },
-      clearSearch: (e) async {
-        emit(
-          state.copyWith(
-            queriedData: <String>[],
           ),
         );
       },

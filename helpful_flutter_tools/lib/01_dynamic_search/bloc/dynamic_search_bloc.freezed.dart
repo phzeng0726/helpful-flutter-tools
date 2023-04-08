@@ -21,7 +21,6 @@ mixin _$DynamicSearchEvent {
     required TResult Function(List<String> fullDataList) loadDataList,
     required TResult Function() loadLocationList,
     required TResult Function(String kValue) queryData,
-    required TResult Function() clearSearch,
     required TResult Function(bool focus) searchBoxFocusChanged,
   }) =>
       throw _privateConstructorUsedError;
@@ -30,7 +29,6 @@ mixin _$DynamicSearchEvent {
     TResult? Function(List<String> fullDataList)? loadDataList,
     TResult? Function()? loadLocationList,
     TResult? Function(String kValue)? queryData,
-    TResult? Function()? clearSearch,
     TResult? Function(bool focus)? searchBoxFocusChanged,
   }) =>
       throw _privateConstructorUsedError;
@@ -39,7 +37,6 @@ mixin _$DynamicSearchEvent {
     TResult Function(List<String> fullDataList)? loadDataList,
     TResult Function()? loadLocationList,
     TResult Function(String kValue)? queryData,
-    TResult Function()? clearSearch,
     TResult Function(bool focus)? searchBoxFocusChanged,
     required TResult orElse(),
   }) =>
@@ -49,7 +46,6 @@ mixin _$DynamicSearchEvent {
     required TResult Function(_LoadDataList value) loadDataList,
     required TResult Function(_LoadLocationList value) loadLocationList,
     required TResult Function(_QueryData value) queryData,
-    required TResult Function(_ClearSearch value) clearSearch,
     required TResult Function(_SearchBoxFocusChanged value)
         searchBoxFocusChanged,
   }) =>
@@ -59,7 +55,6 @@ mixin _$DynamicSearchEvent {
     TResult? Function(_LoadDataList value)? loadDataList,
     TResult? Function(_LoadLocationList value)? loadLocationList,
     TResult? Function(_QueryData value)? queryData,
-    TResult? Function(_ClearSearch value)? clearSearch,
     TResult? Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
   }) =>
       throw _privateConstructorUsedError;
@@ -68,7 +63,6 @@ mixin _$DynamicSearchEvent {
     TResult Function(_LoadDataList value)? loadDataList,
     TResult Function(_LoadLocationList value)? loadLocationList,
     TResult Function(_QueryData value)? queryData,
-    TResult Function(_ClearSearch value)? clearSearch,
     TResult Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
     required TResult orElse(),
   }) =>
@@ -168,7 +162,6 @@ class _$_LoadDataList implements _LoadDataList {
     required TResult Function(List<String> fullDataList) loadDataList,
     required TResult Function() loadLocationList,
     required TResult Function(String kValue) queryData,
-    required TResult Function() clearSearch,
     required TResult Function(bool focus) searchBoxFocusChanged,
   }) {
     return loadDataList(fullDataList);
@@ -180,7 +173,6 @@ class _$_LoadDataList implements _LoadDataList {
     TResult? Function(List<String> fullDataList)? loadDataList,
     TResult? Function()? loadLocationList,
     TResult? Function(String kValue)? queryData,
-    TResult? Function()? clearSearch,
     TResult? Function(bool focus)? searchBoxFocusChanged,
   }) {
     return loadDataList?.call(fullDataList);
@@ -192,7 +184,6 @@ class _$_LoadDataList implements _LoadDataList {
     TResult Function(List<String> fullDataList)? loadDataList,
     TResult Function()? loadLocationList,
     TResult Function(String kValue)? queryData,
-    TResult Function()? clearSearch,
     TResult Function(bool focus)? searchBoxFocusChanged,
     required TResult orElse(),
   }) {
@@ -208,7 +199,6 @@ class _$_LoadDataList implements _LoadDataList {
     required TResult Function(_LoadDataList value) loadDataList,
     required TResult Function(_LoadLocationList value) loadLocationList,
     required TResult Function(_QueryData value) queryData,
-    required TResult Function(_ClearSearch value) clearSearch,
     required TResult Function(_SearchBoxFocusChanged value)
         searchBoxFocusChanged,
   }) {
@@ -221,7 +211,6 @@ class _$_LoadDataList implements _LoadDataList {
     TResult? Function(_LoadDataList value)? loadDataList,
     TResult? Function(_LoadLocationList value)? loadLocationList,
     TResult? Function(_QueryData value)? queryData,
-    TResult? Function(_ClearSearch value)? clearSearch,
     TResult? Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
   }) {
     return loadDataList?.call(this);
@@ -233,7 +222,6 @@ class _$_LoadDataList implements _LoadDataList {
     TResult Function(_LoadDataList value)? loadDataList,
     TResult Function(_LoadLocationList value)? loadLocationList,
     TResult Function(_QueryData value)? queryData,
-    TResult Function(_ClearSearch value)? clearSearch,
     TResult Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
     required TResult orElse(),
   }) {
@@ -295,7 +283,6 @@ class _$_LoadLocationList implements _LoadLocationList {
     required TResult Function(List<String> fullDataList) loadDataList,
     required TResult Function() loadLocationList,
     required TResult Function(String kValue) queryData,
-    required TResult Function() clearSearch,
     required TResult Function(bool focus) searchBoxFocusChanged,
   }) {
     return loadLocationList();
@@ -307,7 +294,6 @@ class _$_LoadLocationList implements _LoadLocationList {
     TResult? Function(List<String> fullDataList)? loadDataList,
     TResult? Function()? loadLocationList,
     TResult? Function(String kValue)? queryData,
-    TResult? Function()? clearSearch,
     TResult? Function(bool focus)? searchBoxFocusChanged,
   }) {
     return loadLocationList?.call();
@@ -319,7 +305,6 @@ class _$_LoadLocationList implements _LoadLocationList {
     TResult Function(List<String> fullDataList)? loadDataList,
     TResult Function()? loadLocationList,
     TResult Function(String kValue)? queryData,
-    TResult Function()? clearSearch,
     TResult Function(bool focus)? searchBoxFocusChanged,
     required TResult orElse(),
   }) {
@@ -335,7 +320,6 @@ class _$_LoadLocationList implements _LoadLocationList {
     required TResult Function(_LoadDataList value) loadDataList,
     required TResult Function(_LoadLocationList value) loadLocationList,
     required TResult Function(_QueryData value) queryData,
-    required TResult Function(_ClearSearch value) clearSearch,
     required TResult Function(_SearchBoxFocusChanged value)
         searchBoxFocusChanged,
   }) {
@@ -348,7 +332,6 @@ class _$_LoadLocationList implements _LoadLocationList {
     TResult? Function(_LoadDataList value)? loadDataList,
     TResult? Function(_LoadLocationList value)? loadLocationList,
     TResult? Function(_QueryData value)? queryData,
-    TResult? Function(_ClearSearch value)? clearSearch,
     TResult? Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
   }) {
     return loadLocationList?.call(this);
@@ -360,7 +343,6 @@ class _$_LoadLocationList implements _LoadLocationList {
     TResult Function(_LoadDataList value)? loadDataList,
     TResult Function(_LoadLocationList value)? loadLocationList,
     TResult Function(_QueryData value)? queryData,
-    TResult Function(_ClearSearch value)? clearSearch,
     TResult Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
     required TResult orElse(),
   }) {
@@ -442,7 +424,6 @@ class _$_QueryData implements _QueryData {
     required TResult Function(List<String> fullDataList) loadDataList,
     required TResult Function() loadLocationList,
     required TResult Function(String kValue) queryData,
-    required TResult Function() clearSearch,
     required TResult Function(bool focus) searchBoxFocusChanged,
   }) {
     return queryData(kValue);
@@ -454,7 +435,6 @@ class _$_QueryData implements _QueryData {
     TResult? Function(List<String> fullDataList)? loadDataList,
     TResult? Function()? loadLocationList,
     TResult? Function(String kValue)? queryData,
-    TResult? Function()? clearSearch,
     TResult? Function(bool focus)? searchBoxFocusChanged,
   }) {
     return queryData?.call(kValue);
@@ -466,7 +446,6 @@ class _$_QueryData implements _QueryData {
     TResult Function(List<String> fullDataList)? loadDataList,
     TResult Function()? loadLocationList,
     TResult Function(String kValue)? queryData,
-    TResult Function()? clearSearch,
     TResult Function(bool focus)? searchBoxFocusChanged,
     required TResult orElse(),
   }) {
@@ -482,7 +461,6 @@ class _$_QueryData implements _QueryData {
     required TResult Function(_LoadDataList value) loadDataList,
     required TResult Function(_LoadLocationList value) loadLocationList,
     required TResult Function(_QueryData value) queryData,
-    required TResult Function(_ClearSearch value) clearSearch,
     required TResult Function(_SearchBoxFocusChanged value)
         searchBoxFocusChanged,
   }) {
@@ -495,7 +473,6 @@ class _$_QueryData implements _QueryData {
     TResult? Function(_LoadDataList value)? loadDataList,
     TResult? Function(_LoadLocationList value)? loadLocationList,
     TResult? Function(_QueryData value)? queryData,
-    TResult? Function(_ClearSearch value)? clearSearch,
     TResult? Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
   }) {
     return queryData?.call(this);
@@ -507,7 +484,6 @@ class _$_QueryData implements _QueryData {
     TResult Function(_LoadDataList value)? loadDataList,
     TResult Function(_LoadLocationList value)? loadLocationList,
     TResult Function(_QueryData value)? queryData,
-    TResult Function(_ClearSearch value)? clearSearch,
     TResult Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
     required TResult orElse(),
   }) {
@@ -525,127 +501,6 @@ abstract class _QueryData implements DynamicSearchEvent {
   @JsonKey(ignore: true)
   _$$_QueryDataCopyWith<_$_QueryData> get copyWith =>
       throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class _$$_ClearSearchCopyWith<$Res> {
-  factory _$$_ClearSearchCopyWith(
-          _$_ClearSearch value, $Res Function(_$_ClearSearch) then) =
-      __$$_ClearSearchCopyWithImpl<$Res>;
-}
-
-/// @nodoc
-class __$$_ClearSearchCopyWithImpl<$Res>
-    extends _$DynamicSearchEventCopyWithImpl<$Res, _$_ClearSearch>
-    implements _$$_ClearSearchCopyWith<$Res> {
-  __$$_ClearSearchCopyWithImpl(
-      _$_ClearSearch _value, $Res Function(_$_ClearSearch) _then)
-      : super(_value, _then);
-}
-
-/// @nodoc
-
-class _$_ClearSearch implements _ClearSearch {
-  const _$_ClearSearch();
-
-  @override
-  String toString() {
-    return 'DynamicSearchEvent.clearSearch()';
-  }
-
-  @override
-  bool operator ==(dynamic other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$_ClearSearch);
-  }
-
-  @override
-  int get hashCode => runtimeType.hashCode;
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function(List<String> fullDataList) loadDataList,
-    required TResult Function() loadLocationList,
-    required TResult Function(String kValue) queryData,
-    required TResult Function() clearSearch,
-    required TResult Function(bool focus) searchBoxFocusChanged,
-  }) {
-    return clearSearch();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(List<String> fullDataList)? loadDataList,
-    TResult? Function()? loadLocationList,
-    TResult? Function(String kValue)? queryData,
-    TResult? Function()? clearSearch,
-    TResult? Function(bool focus)? searchBoxFocusChanged,
-  }) {
-    return clearSearch?.call();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function(List<String> fullDataList)? loadDataList,
-    TResult Function()? loadLocationList,
-    TResult Function(String kValue)? queryData,
-    TResult Function()? clearSearch,
-    TResult Function(bool focus)? searchBoxFocusChanged,
-    required TResult orElse(),
-  }) {
-    if (clearSearch != null) {
-      return clearSearch();
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(_LoadDataList value) loadDataList,
-    required TResult Function(_LoadLocationList value) loadLocationList,
-    required TResult Function(_QueryData value) queryData,
-    required TResult Function(_ClearSearch value) clearSearch,
-    required TResult Function(_SearchBoxFocusChanged value)
-        searchBoxFocusChanged,
-  }) {
-    return clearSearch(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(_LoadDataList value)? loadDataList,
-    TResult? Function(_LoadLocationList value)? loadLocationList,
-    TResult? Function(_QueryData value)? queryData,
-    TResult? Function(_ClearSearch value)? clearSearch,
-    TResult? Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
-  }) {
-    return clearSearch?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(_LoadDataList value)? loadDataList,
-    TResult Function(_LoadLocationList value)? loadLocationList,
-    TResult Function(_QueryData value)? queryData,
-    TResult Function(_ClearSearch value)? clearSearch,
-    TResult Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
-    required TResult orElse(),
-  }) {
-    if (clearSearch != null) {
-      return clearSearch(this);
-    }
-    return orElse();
-  }
-}
-
-abstract class _ClearSearch implements DynamicSearchEvent {
-  const factory _ClearSearch() = _$_ClearSearch;
 }
 
 /// @nodoc
@@ -716,7 +571,6 @@ class _$_SearchBoxFocusChanged implements _SearchBoxFocusChanged {
     required TResult Function(List<String> fullDataList) loadDataList,
     required TResult Function() loadLocationList,
     required TResult Function(String kValue) queryData,
-    required TResult Function() clearSearch,
     required TResult Function(bool focus) searchBoxFocusChanged,
   }) {
     return searchBoxFocusChanged(focus);
@@ -728,7 +582,6 @@ class _$_SearchBoxFocusChanged implements _SearchBoxFocusChanged {
     TResult? Function(List<String> fullDataList)? loadDataList,
     TResult? Function()? loadLocationList,
     TResult? Function(String kValue)? queryData,
-    TResult? Function()? clearSearch,
     TResult? Function(bool focus)? searchBoxFocusChanged,
   }) {
     return searchBoxFocusChanged?.call(focus);
@@ -740,7 +593,6 @@ class _$_SearchBoxFocusChanged implements _SearchBoxFocusChanged {
     TResult Function(List<String> fullDataList)? loadDataList,
     TResult Function()? loadLocationList,
     TResult Function(String kValue)? queryData,
-    TResult Function()? clearSearch,
     TResult Function(bool focus)? searchBoxFocusChanged,
     required TResult orElse(),
   }) {
@@ -756,7 +608,6 @@ class _$_SearchBoxFocusChanged implements _SearchBoxFocusChanged {
     required TResult Function(_LoadDataList value) loadDataList,
     required TResult Function(_LoadLocationList value) loadLocationList,
     required TResult Function(_QueryData value) queryData,
-    required TResult Function(_ClearSearch value) clearSearch,
     required TResult Function(_SearchBoxFocusChanged value)
         searchBoxFocusChanged,
   }) {
@@ -769,7 +620,6 @@ class _$_SearchBoxFocusChanged implements _SearchBoxFocusChanged {
     TResult? Function(_LoadDataList value)? loadDataList,
     TResult? Function(_LoadLocationList value)? loadLocationList,
     TResult? Function(_QueryData value)? queryData,
-    TResult? Function(_ClearSearch value)? clearSearch,
     TResult? Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
   }) {
     return searchBoxFocusChanged?.call(this);
@@ -781,7 +631,6 @@ class _$_SearchBoxFocusChanged implements _SearchBoxFocusChanged {
     TResult Function(_LoadDataList value)? loadDataList,
     TResult Function(_LoadLocationList value)? loadLocationList,
     TResult Function(_QueryData value)? queryData,
-    TResult Function(_ClearSearch value)? clearSearch,
     TResult Function(_SearchBoxFocusChanged value)? searchBoxFocusChanged,
     required TResult orElse(),
   }) {

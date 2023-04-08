@@ -6,12 +6,10 @@ class DynamicSearchEvent with _$DynamicSearchEvent {
   const factory DynamicSearchEvent.loadDataList({
     required List<String> fullDataList,
   }) = _LoadDataList;
-  // Method_2: Loading data from bloc layer
+  // Method_2: Loading data from repository
   const factory DynamicSearchEvent.loadLocationList() = _LoadLocationList;
 
   const factory DynamicSearchEvent.queryData(String kValue) = _QueryData;
-
-  const factory DynamicSearchEvent.clearSearch() = _ClearSearch;
   const factory DynamicSearchEvent.searchBoxFocusChanged(bool focus) =
       _SearchBoxFocusChanged;
 }
