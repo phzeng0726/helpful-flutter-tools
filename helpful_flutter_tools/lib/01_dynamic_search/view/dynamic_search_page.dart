@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:helpful_flutter_tools/1_dynamic_search/bloc/dynamic_search_bloc.dart';
+import 'package:helpful_flutter_tools/01_dynamic_search/bloc/dynamic_search_bloc.dart';
 
 class DynamicSearchPage extends StatelessWidget {
   const DynamicSearchPage({super.key});

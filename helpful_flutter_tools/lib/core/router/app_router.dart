@@ -1,5 +1,5 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:helpful_flutter_tools/1_dynamic_search/view/dynamic_search_page.dart';
+import 'package:helpful_flutter_tools/01_dynamic_search/view/dynamic_search_page.dart';
 
 @MaterialAutoRouter(
   replaceInRouteName: 'Page,Route',
