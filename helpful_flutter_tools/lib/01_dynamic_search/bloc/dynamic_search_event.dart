@@ -3,9 +3,8 @@ part of 'dynamic_search_bloc.dart';
 @freezed
 class DynamicSearchEvent with _$DynamicSearchEvent {
   // Method_1: Loading data from ui layer
-  const factory DynamicSearchEvent.loadDataList({
-    required List<String> fullDataList,
-  }) = _LoadDataList;
+  const factory DynamicSearchEvent.loadDataList(List<String> fullDataList) =
+      _LoadDataList;
   // Method_2: Loading data from repository
   const factory DynamicSearchEvent.loadLocationList() = _LoadLocationList;
 

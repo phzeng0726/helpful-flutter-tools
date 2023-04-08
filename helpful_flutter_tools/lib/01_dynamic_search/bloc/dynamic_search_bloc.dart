@@ -46,8 +46,7 @@ class DynamicSearchBloc extends Bloc<DynamicSearchEvent, DynamicSearchState> {
 
         add(
           DynamicSearchEvent.loadDataList(
-            fullDataList:
-                locationList.map((e) => e['countryNameEn'].toString()).toList(),
+            locationList.map((e) => e['countryNameEn'].toString()).toList(),
           ),
         );
       },

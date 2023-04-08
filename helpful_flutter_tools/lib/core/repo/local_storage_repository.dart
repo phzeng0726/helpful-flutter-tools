@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:helpful_flutter_tools/core/models/location_dtos.dart';
+import 'package:helpful_flutter_tools/01_dynamic_search/model/location_dtos.dart';
 
 
 class LocalStorageRepository{

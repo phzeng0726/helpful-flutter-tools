@@ -110,7 +110,7 @@ class __$$_LoadDataListCopyWithImpl<$Res>
     Object? fullDataList = null,
   }) {
     return _then(_$_LoadDataList(
-      fullDataList: null == fullDataList
+      null == fullDataList
           ? _value._fullDataList
           : fullDataList // ignore: cast_nullable_to_non_nullable
               as List<String>,
@@ -121,7 +121,7 @@ class __$$_LoadDataListCopyWithImpl<$Res>
 /// @nodoc
 
 class _$_LoadDataList implements _LoadDataList {
-  const _$_LoadDataList({required final List<String> fullDataList})
+  const _$_LoadDataList(final List<String> fullDataList)
       : _fullDataList = fullDataList;
 
   final List<String> _fullDataList;
@@ -233,7 +233,7 @@ class _$_LoadDataList implements _LoadDataList {
 }
 
 abstract class _LoadDataList implements DynamicSearchEvent {
-  const factory _LoadDataList({required final List<String> fullDataList}) =
+  const factory _LoadDataList(final List<String> fullDataList) =
       _$_LoadDataList;
 
   List<String> get fullDataList;
